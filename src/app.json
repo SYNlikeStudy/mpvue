@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/search/main",
+    "pages/firstView/main",
+    "pages/books/main",
+    "pages/detail/main",
+
+    "pages/bookList/main"
+
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#1ab2c9",
+    "navigationBarTitleText": "厉害书城"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "图书列表",
+        "pagePath": "pages/books/main",
+        "iconPath": "/static/imgs/book.png",
+        "selectedIconPath": "/static/imgs/book-active.png"
+      },
+      {
+        "text": "搜索图书",
+        "pagePath": "pages/search/main",
+        "iconPath": "/static/imgs/todo.png",
+        "selectedIconPath": "/static/imgs/todo-active.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/books/main",
+        "iconPath": "/static/imgs/me.png",
+        "selectedIconPath": "/static/imgs/me-active.png"
+      }
+    ]
+  }
+}
